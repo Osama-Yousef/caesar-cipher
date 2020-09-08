@@ -70,6 +70,14 @@ version = "0.4.3"
 
 [[package]]
 category = "main"
+description = "A simple English dictionary for Python"
+name = "corpus"
+optional = false
+python-versions = "*"
+version = "0.4.2"
+
+[[package]]
+category = "main"
 description = "Lightweight pipelining: using Python functions as pipeline jobs."
 name = "joblib"
 optional = false
@@ -243,7 +251,7 @@ python-versions = "*"
 version = "0.2.5"
 
 [metadata]
-content-hash = "f0f8981fdda015488afaf6a567e152b006a428dca07d20fe4e0578ea8745cd66"
+content-hash = "b68e1524c35df025cef37a49535e9d42c196b594ed00a34007a6c607f6cc751e"
 lock-version = "1.0"
 python-versions = "^3.8"
 
@@ -271,6 +279,9 @@ click = [
 colorama = [
     {file = "colorama-0.4.3-py2.py3-none-any.whl", hash = "sha256:7d73d2a99753107a36ac6b455ee49046802e59d9d076ef8e47b61499fa29afff"},
     {file = "colorama-0.4.3.tar.gz", hash = "sha256:e96da0d330793e2cb9485e9ddfd918d456036c7149416295932478192f4436a1"},
+]
+corpus = [
+    {file = "Corpus-0.4.2.tar.gz", hash = "sha256:ffa894899350675f874bab9e93ef07326aeb5fc1e9ef62d25729d4b2903c63cc"},
 ]
 joblib = [
     {file = "joblib-0.16.0-py3-none-any.whl", hash = "sha256:d348c5d4ae31496b2aa060d6d9b787864dd204f9480baaa52d18850cb43e9f49"},
